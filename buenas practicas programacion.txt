@@ -1,0 +1,36 @@
+Continue:
+Reemplaza:
+
+i = 0
+n = 0
+while i < 5:
+   i+=1
+   if i == 3:
+      continue
+   n += i
+   print(n)
+
+variables   
+bucle condicion:
+	sentencia
+	if condicion
+		continue
+	sentencias
+
+por:
+
+i = 0
+n = 0
+while i < 5:
+	i+=1
+	if i != 3: #condicion contraria
+		n += i #sentencias siguientes dentro condicion
+		print(n)
+		
+variables   
+bucle condicion:
+	sentencia
+	if condicionContraria
+		sentencias
+		
+#ambos dan 1,3,7,12
