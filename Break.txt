@@ -1,0 +1,88 @@
+Break:
+Reemplaza:
+
+# First Example
+for letter in 'Python':     
+   if letter == 'h':
+      break
+   print('Current Letter :', letter)
+
+# Second Example  
+var = 10                    
+while var > 0:              
+   print('Current variable value :', var)
+   var = var -1
+   if var == 5:
+      break
+
+print("Good bye!")
+
+# First Example
+bucle condicion
+	if condicion
+		break
+	sentencia
+	
+# Second Example  
+variable
+bucle condicion
+	sentencias
+	if condicion
+		break
+		
+sentencia
+
+Por:
+
+# First Example  
+abierto=True
+for letter in 'Python':      
+    if letter == 'h':    
+        abierto=False        
+    else:
+        if abierto:  
+            print('Current Letter :', letter)
+
+# Second Example  
+var = 10  
+abierto1=True 
+while var > 0 and abierto1:  
+    if var == 5:
+        abierto1=False
+    else:        
+        print('Current variable value :', var)
+        var -= 1
+   
+print("Good bye!")
+
+# First Example  
+condicionBoolAux=True
+bucle condicion
+	if condicion
+		condicionBoolAux=False
+	else 
+		if condicionBoolAux
+			sentencia
+			
+# Second Example  
+variable
+condicionBoolAux=True
+bucle condicion and condicionBoolAux
+	if condicion
+		condicionBoolAux=False
+	else
+		sentencias
+
+sentencia
+
+'''
+da Current Letter : P
+Current Letter : y
+Current Letter : t
+Current variable value : 10
+Current variable value : 9
+Current variable value : 8
+Current variable value : 7
+Current variable value : 6
+Good bye!
+'''
